@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background: #13313d;
+  background: linear-gradient(
+    90deg,
+    rgba(19, 49, 61, 1) 0%,
+    rgba(14, 66, 35, 1) 50%,
+    rgba(43, 43, 34, 1) 100%
+  );
+}
+.container {
+  text-align: center;
+}
+
+#map {
+  height: 90vh;
+  width: 100%;
+}
